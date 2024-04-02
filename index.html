@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/font-style.css">
 </head>
 
 <body>
-    
-        <div id="photo">
-        <figure>
+    <header>
+    <div id="photo-nom">
         <img src="./assets/images/cat_relax.jpg" alt="photo d'identité">
-        </figure>
-        </div>
-        <div id="noms">
-        <p>NGUYEN TANG</p>
-        <p>Développeur Web Junior</p>
-        </div>
-        <address id="liens">
-            <a href="https://www.google.fr/maps/place/Arc+de+Triomphe/@48.8737952,2.2924526,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66fec70fb1d8f:0xd9b5676e112e643d!8m2!3d48.8737917!4d2.2950275!16zL20vMHp2Xw?entry=ttu">Place Charles de Gaulles 75008 Paris</a>
-            <a href="mailto:tang77@gmail.com">Tang77@gmail.com</a>
-            <a href="tel:0606060606">0606060606</a>
-        </address>        
+        <h1>NGUYEN TANG</h1>
+        <h2>Développeur Web Junior</h2>
+    </div>
+    
+    <div id="contact">
+        <ul>
+            <li><a 
+            href="https://www.google.fr/maps/place/Arc+de+Triomphe/@48.8737952,2.2924526,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66fec70fb1d8f:
+            0xd9b5676e112e643d!8m2!3d48.8737917!4d2.2950275!16zL20vMHp2Xw?entry=ttu" target="_blank">Pl Charles de Gaulles <br> 75008 Paris
+            </a></li>
+            <li><a href="mailto:myname@gmail.com" target="_blank">myname@gmail.com</a></li>
+            <li><a href="tel:0606060606" target="_blank">0606060606</a></li>
+        </ul>
+    </div>       
+    </header>
 
-    <div id="colonne_droite">
+    <main>
+    <div id="colonne-droite">
 
         <h1>Expériences Professionnelles</h1>
 
@@ -72,23 +77,23 @@
 
     </div>
 
-    <div id="colonne_gauche">
+    <div id="colonne-gauche">
 
-        <h1>A propos</h1>
-            <p>
+        <h2>A propos</h2>
+            <p class="a-propos">
                 Technicien réparateur de smartphones, après une expérience enrichissante dans le secteur, je souhaite désormais débuter une nouvelle aventure.
                 De nature créative et intéressé par le processus de fabrication, le métier de développeur web semble être la suite logique de ma carrière professionnelle. 
                 Indépendant sans négliger le relationnel, cette flexibilité me permets de m'adapter à différents cadre de travail.   
             </p>
 
-        <h1>Langues parlées</h1>
+        <h2>Langues parlées</h2>
             <ul>
                 <li>Français - Langue courante</li>
                 <li>Anglais - Niveau C2</li>
                 <li>Vietnamien - Langue maternelle</li>
             </ul>
 
-        <h1>Centres d'intérêt</h1>
+        <h2>Centres d'intérêt</h2>
             <ul>
                 <li>Voyages</li>
                 <li>Dessin, Peinture</li>
@@ -96,20 +101,21 @@
             </ul>    
 
     </div>
-
+</main>
+    <footer>
     <div id="social">
-
-            <!--Liens réseaux sociaux à ajouter-->
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-
+        <ul>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/instagram.png" alt="instagram" style="width: 2.4em; height: 2.4em;"></a></li>
+            <li><a href="https://twitter.com/?lang=fr" target="_blank"><img src="./assets/images/twitter.png" alt="X" style="width: 2.4em; height: 2.4em;"></a></li>
+            <li></li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR" target="_blank">
+            <img src="./assets/images/facebook.png" alt="facebook" style="width: 2.4em; height: 2.4em;"></a>
+        </ul>
     </div>
 
     <div id="pied">
             <p>Dernière mise-à-jour le 31 mars 2024</p>
-
     </div>
+</footer>
 </body>
 </html>       
             

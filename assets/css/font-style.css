@@ -1,0 +1,50 @@
+/* Copier/Coller le lien @import depuis Google Fonts engendre des erreurs sur la page.
+   Les polices de caractère Lato et Raleway semblent être déjà installées par défaut
+   sur cette version de VScode. 
+   
+   @import 
+   url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+   
+   */
+
+body{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
+}
+
+#colonne-droite{
+    color: black;
+}
+
+header{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#colonne-droite > h1{
+    background-color: #dbc2a4;
+    border-left: 7px #782221 solid;
+    padding-left: 0.5em;
+}
+
+#colonne-gauche > h2{
+    color: black;
+    background-color: #dbc2a4;
+    padding-left: 0;
+    text-indent: 1em;
+}
+
+
+
