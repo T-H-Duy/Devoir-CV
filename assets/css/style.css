@@ -12,41 +12,37 @@ header{
 }
 
     #photo-nom{
-        flex-basis: row;
         background-color: #782221;
-        padding: 3em;
+        padding: 2em;
         text-align: center;
     }
 
-    #photo-nom > img{
-        width: 10em;
-        height: 10em;
+    #photo-nom img{
         border-radius: 50%;
         box-shadow: 0 0 12px #dbc2a4;
     }
 
-    #photo-nom > img:hover{
+    #photo-nom img:hover{
         cursor: zoom-in;
     }
 
     #contact{
         background-color: #2c1d27;
-        padding-right: 3em;
+        padding: 2em;
     }
 
-    #contact ul{
-        list-style-type: none;
+    #contact address{
         display: flex;
         justify-content: space-between;
     }
 
-    #contact li a{
+    #contact address a{
         outline: none;
         text-decoration: none;
         color: white;
     }
 
-    #contact li a:hover{
+    #contact address a:hover{
         text-decoration: underline;
     }
 
@@ -62,6 +58,13 @@ main{
         padding: 2em 2em 2em 0;
     }
 
+    #colonne-gauche p{
+        padding-left: 1.5em;
+        text-indent: 3em;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
     #colonne-droite{
         color: black;
         order: 2;
@@ -69,11 +72,8 @@ main{
         padding: 2em;
     }
 
-    .a-propos{
-        padding-left: 1.5em;
-        text-indent: 3em;
-        text-align: justify;
-        text-justify: inter-word;
+    #colonne-droite div:hover{
+        border-right: 1em solid #782221;
     }
 
 footer{
@@ -85,7 +85,7 @@ footer{
         display: flex;
         justify-content: center;
         background-color: #782221;
-        padding-right: 3em;
+        padding: 1em;
     }
 
     #social ul{

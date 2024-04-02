@@ -1,23 +1,24 @@
 /* Copier/Coller le lien @import depuis Google Fonts engendre des erreurs sur la page.
-   Les polices de caractère Lato et Raleway semblent être déjà installées par défaut
-   sur cette version de VScode. 
+   Les polices de caractère Lato et Raleway sont quand même appliquées, même sans les liens
    
-   @import 
-   url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
-   
-   */
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap')
+*/   
+
+@font-face {
+    font-family: Raleway;
+    src: url(https://fonts.google.com/specimen/Raleway)
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(https://fonts.google.com/specimen/Lato);
+}
 
 body{
     color: white;
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 80%;
-}
-
-#colonne-droite{
-    color: black;
 }
 
 header{
@@ -26,17 +27,21 @@ header{
     font-style: normal;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
-#colonne-droite > h1{
+#colonne-droite h2{
     background-color: #dbc2a4;
     border-left: 7px #782221 solid;
     padding-left: 0.5em;
+}
+
+#colonne-droite{
+    color: black;
 }
 
 #colonne-gauche > h2{
