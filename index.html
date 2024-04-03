@@ -4,121 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
+    <link rel="stylesheet" href="./assets/css/font-style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <figure>
-                <img src="./assets/images/photo_id.jpg" alt="photo d'identité">
-            </figure>
-        </div>
-        <div>
+        <div id="photo-nom">
+            <a href="./assets/images/cat_relax.jpg" target="_blank"><img src="./assets/images/cat_relax.jpg" alt="photo d'identité"></a>
             <h1>NGUYEN TANG</h1>
             <h2>Développeur Web Junior</h2>
         </div>
-        <div>
-            <address>
-                <p>
-                1 rue des Halles <br>
-                77600 Bussy-St-Georges
-                </p>
-                <a href="mailto:nhduy287@gmail.com">nhduy287@gmail.com</a>
-                <a href="tel:0621824887">0621824887</a>
-            </address>        
-        </div>
+        
+        <address>
+            <a href="https://www.google.fr/maps/place/Arc+de+Triomphe/@48.8737952,2.2924526,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66fec70fb1d8f:0xd9b5676e112e643d!8m2!3d48.8737917!4d2.2950275!16zL20vMHp2Xw?entry=ttu" target="_blank">Pl Charles de Gaulles <br> 75008 Paris</a>
+            <a href="mailto:myname@email.com" target="_blank">myname@email.com</a>
+            <a href="tel:0606060606" target="_blank">0606060606</a>
+        </address>       
     </header>
 
     <main>
-        <section id="exp_prof">
+        <section id="colonne-gauche">
+            <h3>A propos</h3>
+                <p>
+                    Technicien réparateur de smartphones, après une expérience enrichissante dans le secteur, je souhaite désormais débuter une nouvelle aventure.
+                    De nature créative et intéressé par le processus de fabrication, le métier de développeur web semble être la suite logique de ma carrière professionnelle. 
+                    Indépendant sans négliger le relationnel, cette flexibilité me permets de m'adapter à différents cadre de travail.   
+                </p>
+            <h3>Langues parlées</h3>
+                <ul>
+                    <li>Anglais - Niveau C2</li>
+                    <li>Français - Langue courante</li>
+                    <li>Vietnamien - Langue maternelle</li>
+                </ul>
+            <h3>Centres d'intérêt</h3>
+                <ul>
+                    <li>Voyages</li>
+                    <li>Dessin, Peinture</li>
+                    <li>Jeux vidéo</li>
+                </ul>    
+        </section>
+        <section id="colonne-droite">
             <h3>Expériences Professionnelles</h3>
-            <div>
+                <article>
                 <h4>Technicien SAV chez Huawei France</h4>
-                    <p>De 2021 à 2022</p>
-                    <ul>
-                        <li>Réparation smartphones et tablettes</li>
-                        <li>Respect process Huawei</li>
-                        <li>Gestion de stock</li>
-                    </ul>
-            </div>
-            <div>
+                    <time datetime="2021">De 2021 à 2022</time>
+                        <ul>
+                            <li>Réparation smartphones et tablettes</li>
+                            <li>Respect process Huawei</li>
+                            <li>Gestion de stock</li>
+                        </ul>
+                </article>
+                <article>
                 <h4>Réparateur, vendeur chez SAVE</h4>
-                    <p>De 2019 à 2021</p>
-                    <ul>
-                        <li>Acceuil clients</li>
-                        <li>Réparation smartphones et tablettes</li>
-                        <li>Gestion de stock</li>
-                    </ul>
-            </div>
-            <div>
+                    <time datetime="2019">De 2019 à 2021</time>
+                        <ul>
+                            <li>Acceuil clients</li>
+                            <li>Réparation smartphones et tablettes</li>
+                            <li>Gestion de stock</li>
+                        </ul>
+                </article>
+                <article>
                 <h4>Technicien monétique chez Dipsamatic</h4>
-                    <p>De 2016 à 2018</p>
-                    <ul>
-                        <li>Réparation système de paiement</li>
-                        <li>Managment techniciens terrain</li>
-                        <li>Gestion de sstock</li>
-                    </ul>
-            </div>
-        </section>
-        <section id="formations">
+                    <time datetime="2016">De 2016 à 2018</time>
+                        <ul>
+                            <li>Réparation système de paiement</li>
+                            <li>Managment techniciens terrain</li>
+                            <li>Gestion de sstock</li>
+                        </ul>
+                </article>
             <h3>Diplômes/Formations</h3>
-            <div>
+            <article>
                 <h4>Développeur web et mobile</h4>
-                <P>2024 en cours</P>
-                <p>Centre Européen de Formation</p>
-            </div>
-            <div>
+                    <time datetime="2024">2024 en cours</time>
+                    <p>Centre Européen de Formation</p>
+            </article>
+            <article>
                 <h4>Réparateur smartphones et tablettes</h4>
-                <P>2019</P>
-                <p>L'Académie des Réparateurs</p>
-            </div>
-        </section>
-        <section id="competences">
+                    <time datetime="2019">2019</time>
+                    <p>L'Académie des Réparateurs</p>
+            </article>
+            <article>
             <h3>Compétences</h3>
             <ul>
                 <li>HTML<sub>5</sub> - Débutant</li>
                 <li>CSS<sub>3</sub> - Débutant</li>
                 <li>GitHub - Débutant</li>
-                <li>Word, Excell</li>
             </ul>
-        </section>
-        <section id="a_propos">
-            <div>
-                <h4>A propos</h4>
-                <pre>
-                    Technicien réparateur de smartphones, après une expérience enrichissante dans le secteur, je souhaite désormais débuter une nouvelle aventure.
-                    De nature créative et intéressé par le processus de fabrication, le métier de développeur web semble être la suite logique de ma carrière professionnelle. 
-                    Indépendant sans négliger le relationnel, cette flexibilité me permets de m'adapter à différents cadre de travail.   
-                </pre>
-            </div>
-            <div>
-                <h4>Langues parlées</h4>
-                    <ul>
-                        <li>Français - Langue courante</li>
-                        <li>Anglais - Niveau C2</li>
-                        <li>Vietnamien - Langue maternelle</li>
-                    </ul>
-            </div>
-            <div>
-                <h4>Centres d'intérêt</h4>
-                    <ul>
-                        <li>Voyages</li>
-                        <li>Dessin, Peinture</li>
-                        <li>Jeux vidéo</li>
-                    </ul>
-            </div>
+            </article>
         </section>
     </main>
 
     <footer>
-        <div>
-            <!--Liens réseaux sociaux à ajouter-->
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <div id="social">
+            <a href="https://fr.linkedin.com/" target="_blank"><img src="./assets/images/linkedin.png" alt="Logo cliquable de Linkedin"></a>
+            <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./assets/images/twitter.png" alt="Logo cliquable Twitter-X"></a>
+            <a href="https://github.com/" target="_blank">
+            <img src="./assets/images/github.png" alt="Logo cliquable de GitHub"></a>
         </div>
-        <div>
-            <p>Dernière mise-à-jour le 31 mars 2024</p>
+        <div id="pied">
+            <time datetime="2024-04-02">Dernière mise-à-jour le 02 avril 2024</time>
         </div>
     </footer>
 </body>
